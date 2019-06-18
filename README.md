@@ -7,5 +7,5 @@
 3.如何在canvas中对一张图片进行rotate操作？css用transform很好实现，但canvas中就复杂了，它的旋转是坐标系旋转，一不留神画的东西就全没了，因为可视区已经转到另一个象限了。所以得换一下思路，将图片视为基准点，移动坐标系。首先将坐标系原点移动到图片中心ctx.translate(x,y),然后再旋转坐标系ctx.rotate((this.angle * Math.PI) / 180)
 
 
-效果展示
+效果展示 . https://b00.cdn.ipalfish.com/0/img/ab/0c/b46d4d85f792759014db334c571f
 ![show](https://b00.cdn.ipalfish.com/0/img/ab/0c/b46d4d85f792759014db334c571f)
